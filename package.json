@@ -1,0 +1,20 @@
+{
+  "name": "yebo_cypress",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+   
+   "test": "npx cypress run",
+    "debug": "npx cypress open",
+    "cy:parallel": "cypress-parallel -d cypress/e2e/yebo1/ -t 4 -s test"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^13.2.0",
+    "cypress-mochawesome-reporter": "^3.6.0",
+    "cypress-parallel": "^0.13.0",
+    "cypress-xpath": "^2.0.1"
+  }
+}
